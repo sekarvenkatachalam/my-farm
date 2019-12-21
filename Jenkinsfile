@@ -28,8 +28,8 @@ pipeline{
           stage(" monitor"){
                   steps{
                   sh "sleep 5"
-                  sh "chmod 0777 monitorting.sh"
-                  sh "./monitorting.sh"
+                  sh "chmod 0777 monitoring.sh"
+                  sh "./monitoring.sh"
                   }
           }
     }
