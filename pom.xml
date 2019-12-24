@@ -27,6 +27,6 @@
         <sonar.login>9363382d7d46f6d21cc0a14f4c3e5a4dccf93fab</sonar.login>
         </properties>
 	<build>
-		<finalName>my-farm</finalName>
+		<finalName>sekar-farm</finalName>
 	</build>
 </project>
