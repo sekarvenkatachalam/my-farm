@@ -10,7 +10,7 @@ hosts: localhost
        become: true
 
      - name: copy new war filr fram webapps
-       copy: src=my-farm.war dest=/var/lib/tomcat8/webapps/my-farm.war mode=0777
+       copy: src=target/my-farm.war dest=/var/lib/tomcat8/webapps/my-farm.war mode=0777
        become: true
 
      - name: to start tomcat8
